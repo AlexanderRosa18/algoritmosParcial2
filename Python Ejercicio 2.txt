@@ -1,0 +1,18 @@
+#primero definimos las variables a usar, en este caso será cudrado y el otro será el del producto de ambos números
+def cuadrado(numero):
+    return numero * numero
+#deinimos la segunda variable como antes mencioné 
+def producto(numero1, numero2):
+    return numero1 * numero2
+
+#Acá nosotros llamamos a la primer función
+
+numero = int(input("Ingrese el número que desee saber al cuadrado: "))
+print("El cuadrado de {} es {}".format(numero, cuadrado(numero)))
+
+#En esta parte nosotros llamamos a la segunda variable 
+numero1 = int(input("Ingrese un número: "))
+numero2 = int(input("Ingrese otro número: "))
+print("El producto de {} y {} es {}".format(numero1, numero2, producto(numero1, numero2)))
+
+
